@@ -1,0 +1,9 @@
+Item_No,Item_Name,Cat,Cust_Price,Vendor_Price,Product_Category
+12343,Under water Metal Det,cat1,5000,5500,Misc Equipment
+12344,Stabilizing vest,cat1,5000,5500,Misc Equipment
+12345,Air Compressor,cat1,5000,5500,Misc Equipment
+12346,Remotely Operated Vi,cat2,2000,6500,Photo Equipment
+12347,Towable Video Camera,cat3,6000,7500,Photo Equipment
+12348,Marine super vhs vi,cat4,3000,8500,Photo Equipment
+12349,Dive computer,cat5,8000,9000,Small Instruments
+12340,Under Water Dive vehicle,cat6,7000,7500,Vehicle

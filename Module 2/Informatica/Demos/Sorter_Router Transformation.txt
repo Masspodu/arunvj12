@@ -1,0 +1,26 @@
+
+Mapping Designer
+1) Create source based on Employees table
+2)Drag all fields from SQ transformation to an Expression Transformation
+In the Expression Transformation concatenate Empfirstname and Emplastname
+3) Create a sorter transformation
+Drag fields(except EMPFIRSTNAME AND EMPLASTNAME BUT INCLUDING EMPNAME)
+from Expression transformation to sorter transformation.
+Sort on Empname(Can choose Ascending descending)
+4) Create a Router Transformation. Drag all fields 
+from Srt_Empname to the Router Transformation
+
+Create two groups 
+CntryUSA   Grp Filter condition  country='USA'
+CntryUK  Grp Filter condition  country='UK'
+A default group will automatically exist
+
+
+The Input group will receive input from Srt_Emp.
+
+The  CntryUSA will redirect the output to the target table TGT_EMPLOYEES_US
+
+The  CntryUK will redirect the output to the target table TGT_EMPLOYEES_UK
+
+Fields of  TGT_EMPLOYEES_UK and TGT_EMPLOYEES_USA are the 
+same as that of sorter transformation

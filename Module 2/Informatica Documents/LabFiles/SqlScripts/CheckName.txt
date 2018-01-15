@@ -1,0 +1,31 @@
+CREATE OR REPLACE procedure CheckName(name in varchar2, flag out char) as
+--
+-- Procedure to find whether name contains any unwanted characters
+-- (Other than 'A-Z', 'a-z', space and comma)
+-- IN variable name accepts name
+-- OUT variable flag is assigned 'V' for valid name and 'I' for invalid name
+--
+
+begin
+  -- Exiting if name is null
+  if name is not null then
+    -- Checking for 'A-Z', 'a-z', ' ', ','
+    for x in 1..length(name) loop
+      if (ascii(substr(name, x, 1)) > 64 and ascii(substr(name, x, 1)) <= 90) or
+         (ascii(substr(name, x, 1)) > 96 and ascii(substr(name, x, 1)) <= 122) or
+         (ascii(substr(name, x, 1)) = 32) or
+         (ascii(substr(name, x, 1)) = 44) OR
+	(ascii(substr(name, x, 1)) = 39)
+      then
+
+        flag := 'V'; -- Name is valid
+      else
+        flag := 'I'; -- Name is invalid
+        exit;
+      end if;
+    end loop;
+
+  else
+    null;
+  end if;
+end CheckName;

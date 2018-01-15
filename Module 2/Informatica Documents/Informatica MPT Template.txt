@@ -1,0 +1,22 @@
+Informatica MPT Solution
+----------------------------
+Employee Name		:  
+Employee ID		: 
+
+Informatica User Id	: 
+Informatica Password	: 
+
+Oracle DB User Id	: Lab1btrg39@ORCL11G
+Oracle DB Password	: 
+Connection Name		:
+---------------------------------------------------------------------------
+
+Q1.
+Mapping Name	:
+Workflow Name	:
+
+Additional Information if you want to add transformations,expressions
+Reusable transformations,Mapplets,worklets,reusable tasks etc
+
+---------------------------------------------------------------------------
+For all remaining solutions use above structure.	

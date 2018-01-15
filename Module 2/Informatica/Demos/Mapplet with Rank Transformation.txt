@@ -1,0 +1,19 @@
+
+Steps in Mapplet
+
+1) Join Emp and Dept with a Single SQ transformation
+2) Create and Agg transformation with the fields  Deptno,Dname,Loc,Sal
+Drag the above fields from the previous transformation
+Create a field SUMSAL which is sum(sal) group by deptno , Dname, Loc
+3) Create a Mapplet Output transformation and Drag  Deptno,Dname,Loc, SUMSAL
+from the aggregator transformation to the Mapplet output transformation 
+
+Steps in Mapping
+
+1) Drag Mapplet
+2) Create  a Rank Transformation and rank by TOTSAL
+3) Drag the Rank Transformation to the target table
+4) Create appropriate fields in the target table and create the target table
+before executing workflow.
+
+

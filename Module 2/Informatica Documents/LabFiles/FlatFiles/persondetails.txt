@@ -1,0 +1,7 @@
+Name,Month,Transportation,House Rent,Food
+Sam,Jan,200,1500,500
+John,Jan,300,1200,300
+Tom,Jan,300,1350,350
+Sam,Feb,300,1550,450
+John,Feb,350,1200,290
+Tom,Feb,350,1400,350

@@ -1,0 +1,11 @@
+1)Drag the Emp table and the Dept flat file in the mapping designer
+The Dept flat file contains the fields 
+Deptno and Dname
+
+2) Create a Joiner transformation and Drag fields
+of both tables in the Jnr Transformation
+In the condition tab enter Deptno1=Deptno
+
+3) Create a target table which contains fields of both tables.
+i.e. Empno, Ename,job,sal,comm,deptno,Dname
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmployeeDetails xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="EmployeeDetails.xsd">
+
+	<Employee Empno="7369">
+		<Ename>Smith</Ename>
+		<Job>Clerk</Job>
+		<Mgr>7902</Mgr>
+		<HireDate>1980-12-17</HireDate>
+		<Sal>1000</Sal>
+		<Comm>200</Comm>
+		<DeptNo>20</DeptNo>
+	</Employee>
+	
+	<Employee Empno="7499">
+		<Ename>Allen</Ename>
+		<Job>SalesMan</Job>
+		<Mgr>7698</Mgr>
+		<HireDate>1981-02-20</HireDate>
+		<Sal>1600</Sal>
+		<Comm>20000</Comm>
+		<DeptNo>30</DeptNo>
+	</Employee>
+	
+	<Employee Empno="7521">
+		<Ename>Ward</Ename>
+		<Job>SalesMan</Job>
+		<Mgr>7698</Mgr>
+		<HireDate>1982-02-22</HireDate>
+		<Sal>1375</Sal>
+		<Comm>19700</Comm>
+		<DeptNo>30</DeptNo>
+	</Employee>
+	
+</EmployeeDetails>

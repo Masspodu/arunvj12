@@ -1,0 +1,120 @@
+EMPLOYEE_ID,JOB_ID, FIRST_NAME,LAST_NAME,ADDRESS1,ADDRESS2,CITY,STATE,POSTAL_CODE,HOME_PHONE,OFFICE_PHONE,MANAGER_ID ,EMAIL 
+1,1,Roberto,Nelson,4-196 Sugarloaf Hwy,,Kapaa Kauai,HI,94766,808-555-0269,555-55-5555,,rnelsonabc.com
+2,1,Mary,Page,PO Box Z-547,,Freeport,HI,94766,809-555-3915,555-55-5555,1921,mpageabc.com
+3,1,Pierre,Osborne,4-196 Sugarloaf Hwy,,Kapaa Kauai,HI,94766,808-555-0269,555-55-5555,1921,posborneabc.com
+4,1,Roger,De Souza,PO Box Z-547,,Freeport,HI,94767,809-555-3915,555-55-5555,1921,rdesouzaabc.com
+5,1,Mary,S. MacDonald,1 Neptune Lane,,Kato Paphos,HI,94812,357-6-876708,555-55-5555,,mmacdonaldabc.com
+6,1,Janice,Hill,PO Box 541,,Maui,HI,97212,809-555-8576,555-55-5555,2001,jhillabc.com
+7,1,Tom,Sawyer,632-1 Third Frydenho,,Maui,HI,94766,809-555-7281,555-55-5555,2001,tsawyerabc.com
+8,1,Oliver,H. Bender,23-738 Paddington La,,Waipahu,HI,99776,808-555-8904,555-55-5555,2001,obenderabc.com
+9,1,Leslie,Johnson,32 Main St.,,Kauai,HI,94766,809-555-6864,555-55-5555,,ljohnsonabc.com
+10,1,Walter,Steadman,1 Neptune Lane,,Kato Paphos,HI,94788,357-6-876708,555-55-5555,2100,wsteadmanabc.com
+11,1,John,Markowitz,PO Box 541,,Koana,HI,94767,809-555-8576,555-55-5555,2100,jmarkowitzabc.com
+12,1,Tom,Centre,632-1 Third Frydenho,,Christiansted,HI,94766,809-555-7281,555-55-5555,2100,tcentreabc.com
+13,1,Roberto,Nelson,4-196 Sugarloaf Hwy,,Kapaa Kauai,HI,94766,808-555-0269,555-55-5555,2100,kleander2abc.com
+14,1,Mary,Page,PO Box Z-547,,Freeport,BA,323K3,809-555-3915,555-55-5555,2100,kleander2abc.com
+15,1,Pierre,Osborne,4-196 Sugarloaf Hwy,,Kapaa Kauai,HI,94766,808-555-0269,555-55-5555,2100,kleander2abc.com
+16,1,Roger,De Souza,PO Box Z-547,,Freeport,ME,23432,809-555-3915,555-55-5555,2100,kleander2abc.com
+17,1,Mary S.,MacDonald,1 Neptune Lane,,Kato Paphos,TX,23423,357-6-876708,555-55-5555,2100,kleander2abc.com
+18,1,Cayman,Duckwell,PO Box 541,,AK,Gr,KE3KS,809-555-8576,555-55-5555,2100,kleander2abc.com
+19,1,Tom,Sawyer,632-1 Third Frydenho,,Christiansted,St,00820,809-555-7281,555-55-5555,2100,kleander2abc.com
+20,1,Oliver H.,Bender,23-738 Paddington La,,Waipahu,HI,99776,808-555-8904,555-55-5555,2100,kleander2abc.com
+21,1,Leslie,Johnson,32 Main St.,,Christiansted,St,02800,809-555-6864,555-55-5555,2100,kleander2abc.com
+22,1,Walter,Steadman,1 Neptune Lane,,Kato Paphos,VI,3KL39,357-6-876708,555-55-5555,2100,kleander2abc.com
+23,1,Cayman,World,PO Box 541,,VI,Gr,3K39D,809-555-8576,555-55-5555,2100,kleander2abc.com
+24,1,Tom,Centre,632-1 Third Frydenho,,Christiansted,St,00820,809-555-7281,555-55-5555,2100,kleander2abc.com
+25,1,Jack,Aqua,23-738 Paddington La,,Waipahu,HI,99776,808-555-8904,555-55-5555,2100,kleander2abc.com
+26,1,Van,Vver,32 Main St.,,Christiansted,St,02800,809-555-6864,555-55-5555,2100,kleander2abc.com
+27,1,John,Paradise,PO Box 8745,,Kailua-Kona,HI,94756,808-555-8231,555-55-5555,2100,kleander2abc.com
+28,1,Fanta,Aqua,Z32 999 #12A-77 A.A.,,Bogota,CO,23433,57-1-773421,555-55-5555,2100,kleander2abc.com
+29,1,Marmot,Joel,872 Queen St.,,Kitchener,On,G3N 2E1,519-555-5520,555-55-5555,2100,kleander2abc.com
+30,1,Depth,Jackson,15243 Underwater Fwy,,Marathon,FL,35003,800-555-3798,555-55-5555,2100,kleander2abc.com
+31,1,Joe,Blue,203 12th Ave. Box 74,,Giribaldi,OR,91187,503-555-0393,555-55-5555,2100,kleander2abc.com
+32,1,Pete,Fisher,PO Box 8745,,Kailua-Kona,HI,94756,808-555-8231,555-55-5555,2100,kleander2abc.com
+33,1,Fan,Peters,Z32 999 #12A-77 A.A.,,Bogota,CO,23433,57-1-773421,555-55-5555,2100,kleander2abc.com
+34,1,Makai,Kim,PO Box 8534,Kailua-Kona,BA,HI,94756,808-555-0253,555-55-5555,2100,kleander2abc.com
+35,2,Mark,Guckenheimer,PO Box 5451-F,,Sarasota,FL,32274,813-555-6732,555-55-5555,2100,kleander2abc.com
+36,2,Joe,Club,872 Queen St.,Kitchener,KA,On,G3N 2E1,519-555-5520,555-55-5555,2100,kleander2abc.com
+37,2,Thea,Charge,15243 Underwater Fwy,,Marathon,FL,35003,800-555-3798,555-55-5555,2100,kleander2abc.com
+38,2,Bruce,Young,203 12th Ave. Box 74,,Giribaldi,OR,91187,503-555-0393,555-55-5555,2100,kleander2abc.com
+39,2,Kim,Finders,6133 1/3 Stone Avenue,,St Simons Isle,GA,32521,912-555-6208,555-55-5555,2100,kleander2abc.com
+40,2,Terri,Lee,PO Box 8534,,Kailua-Kona,HI,94756,808-555-0253,555-55-5555,2100,kleander2abc.com
+41,2,Action,Jackson,PO Box 5451-F,,Sarasota,FL,32274,813-555-6732,555-55-5555,2100,kleander2abc.com
+42,2,Leslie,Phong,PO Box 68,,Negril,Ja,3KL23,809-555-4137,555-55-5555,2100,kleander2abc.com
+43,2,Island,Luong,6133 1/3 Stone Avenu,,St Simons Isle,GA,32521,912-555-6208,555-55-5555,2100,kleander2abc.com
+44,2,Tim,Undersea,PO Box 744,,Belize City,VI,23432,501-4-20013,555-55-5555,2100,kleander2abc.com
+45,2,Kevin,Cook,PO Box 744,,Belize City,BA,ODOIK,501-4-20013,555-55-5555,2100,kleander2abc.com
+46,2,Blue,Bob,63365 Nez Perce Street,,Largo,FL,34684,813-555-1975,555-55-5555,2100,kleander2abc.com
+47,2,Katherine,Young,1455 North 44th St.,,Eugene,OR,90427,503-555-2778,555-55-5555,2100,kleander2abc.com
+48,2,Davy,Jones,246 South 16th Place,,Vancouver,Br,K8V 9P1,804-555-2692,555-55-5555,2100,kleander2abc.com
+49,2,Heaven,Disrobed,PO Box Q-8874,,Nassau,BA,3KL23,809-555-0377,555-55-5555,2100,kleander2abc.com
+50,2,Shangri,La Sport,PO Box D-5495,,Freeport,BA,3KKL2,809-555-6182,555-55-5555,2100,kleander2abc.com
+51,2,K. J.,Weston,63365 Nez Perce Stre,,Largo,FL,34684,813-555-1975,555-55-5555,2100,kleander2abc.com
+52,2,Frank,Drivers,1455 North 44th St.,,Eugene,OR,90427,503-555-2778,555-55-5555,2100,kleander2abc.com
+53,2,Bobbi,Jones' Locker,246 South 16th Place,,Vancouver,Br,K8V 9P1,804-555-2692,555-55-5555,2100,kleander2abc.com
+54,2,Scott,Johnson,PO Box Q-8874,,Nassau,VI,3K3L3,809-555-0377,555-55-5555,2100,kleander2abc.com
+55,2,Shangri,La Main,PO Box D-5495,,Freeport,BA,KL,809-555-6182,555-55-5555,2100,kleander2abc.com
+56,2,Corfu,Fatim,Marmoset Place 54,,Ayios Matthaios,Co,3L3KL,30-661-88364,555-55-5555,2100,kleander2abc.com
+57,2,Atlantis,Utene,42 Aqua Lane,,Waterville,ME,00914,207-555-0107,555-55-5555,2100,kleander2abc.com
+58,2,Corfu,Doico,Marmoset Place 54,,Ayios Matthaios,Co,3L2K3,30-661-88364,555-55-5555,2100,kleander2abc.com
+59,2,Atlantis,Bimbob,42 Aqua Lane,,Waterville,ME,00914,207-555-0107,555-55-5555,2100,kleander2abc.com
+60,2,St. Cix,Bobby,#73 King Salmon Way,,Christiansted,St,02860,809-555-3551,555-55-5555,2100,kleander2abc.com
+61,2,Carol,Nordstrom,4734 Melinda St.,,Hoover,AL,32145,205-555-8333,555-55-5555,2100,kleander2abc.com
+62,2,Dilue,Green,634 Complex Ave.,,Pelham,AL,32145,205-555-7184,555-55-5555,2100,kleander2abc.com
+63,2,Golduppl,Sabboy,223-B Houston Place,HE,Mobile,AL,30696,205-555-2640,555-55-5555,2100,kleander2abc.com
+64,2,Sane,Nomore,1701-D N Broadway,,Santa Maria,CA,95443,805-555-0461,555-55-5555,2100,kleander2abc.com
+65,2,Willie,Stansbury,351-A Sarasota St.,IN,San Jose,CA,92195,408-555-4719,555-55-5555,2100,kleander2abc.com
+66,2,American,Red,1739 Atlantic Avenue,ZO,Lomita,CA,91770,213-555-6119,555-55-5555,2100,kleander2abc.com
+67,2,Beate,Catamaran,Box 264 Pleasure Poi,E3,Catalina Island,CA,90740,213-555-0422,555-55-5555,2100,kleander2abc.com
+68,2,Roberto,Ferrari,24601 Universal Lane,,Downey,CA,94220,213-555-1909,555-55-5555,2100,kleander2abc.com
+69,2,	Jean St.,Croix,#73 King Salmon Way,,Christiansted,St,02860,809-555-3551,555-55-5555,2100,kleander2abc.com
+70,3,Jack,Demean,4734 Melinda St.,,Hoover,AL,32145,205-555-8333,555-55-5555,2100,kleander2abc.com
+71,4,Diveen,Bareen,634 Complex Ave.,,Pelham,AL,32145,205-555-7184,555-55-5555,2100,kleander2abc.com
+72,3,Goldly,Balde,223-B Houston Place,,Mobile,AL,30696,205-555-2640,555-55-5555,2100,kleander2abc.com
+73,4,Dana,Bishop,1701-D N Broadway,,Santa Maria,CA,95443,805-555-0461,555-55-5555,2100,kleander2abc.com
+74,3,Takashi,Yamamoto,351-A Sarasota St.,,San Jose,CA,92195,408-555-4719,555-55-5555,2100,kleander2abc.com
+75,3,America,Transsit,1739 Atlantic Avenue,,Lomita,CA,91770,213-555-6119,555-55-5555,2100,kleander2abc.com
+76,3,Catamar,Burp,Box 264 Pleasure Poi,,Catalina Island,CA,90740,213-555-0422,555-55-5555,2100,kleander2abc.com
+77,3,Grotto,Looker,24601 Universal Lane,,Downey,CA,94220,213-555-1909,555-55-5555,2100,kleander2abc.com
+78,3,Actly,Speaker,Blue Spar Box #3,,St. Thomas,VI,00820,809-555-6917,555-55-5555,2100,kleander2abc.com
+79,4,FiEye,Spillman,PO Box 7542,,AK,Gr,BA,809-555-4680,555-55-5555,2100,kleander2abc.com
+80,4,Roger,Reeves,Blue Spar Box #3,,St. Thomas,VI,00820,809-555-6917,555-55-5555,2100,kleander2abc.com
+81,4,Marr,Lungrin,PO Box 82438 Zulu 78,,Caracas,KM,BA,58-33-66222,555-55-5555,2100,kleander2abc.com
+82,4,Luke,Leung,PO Box 82438 Zulu 78,,Caracas,SA,VI,58-33-66222,555-55-5555,2100,kleander2abc.com
+83,4,Kim,Lambert,6345 W. Shore Lane,,Santa Monica,CA,90410,213-555-1984,555-55-5555,2100,kleander2abc.com
+84,3,Jennifer M.,Burbank,6345 W. Shore Lane,,Santa Monica,CA,90410,213-555-1984,555-55-5555,2100,kleander2abc.com
+85,3,Venice,Butts,220 Elm Street,,Venice,FL,39224,813-555-0229,555-55-5555,2100,kleander2abc.com
+86,3,Benice,Snernley,220 Elm Street,,Venice,FL,39224,813-555-0229,555-55-5555,2100,kleander2abc.com
+87,3,Ono,Takasihi,7-73763 Nanakawa Roa,,Winnipeg,Ma,J2R 5T3,204-555-3185,555-55-5555,2100,kleander2abc.com
+88,3,Ono,Uma,7-73763 Nanakawa Roa,,Winnipeg,Ma,J2R 5T3,204-555-3185,555-55-5555,2100,kleander2abc.com
+89,3,Jamaica Sun,John,PO Box 643,,Runaway Bay,Ja,L2K34,809-555-2746,555-55-5555,2100,kleander2abc.com
+90,3,Jacques,Glon,PO Box 842,,Ocho Rios,Ja,KLSD0,809-555-2214,555-55-5555,2100,kleander2abc.com
+91,3,Jamaica,Bun,PO Box 643,,Runaway Bay,Ja,K3L23,809-555-2746,555-55-5555,2100,kleander2abc.com
+92,4,UnFan,Sport,PO Box 842,,Ocho Rios,Ja,3K3L9,809-555-2214,555-55-5555,2100,kleander2abc.com
+93,4,Princess,Lea,PO Box 32 Waiyevo,,Taveuni,VI,3KL23,679-311923,555-55-5555,2100,kleander2abc.com
+94,4,Cenater,Specker,PO Box 737,,Johannesburg,0D,D2042,27-11-4432458,555-55-5555,2100,kleander2abc.com
+95,4,Saea,Placlt,PO Box 7456,,AK,Gr,23423,809-555-3660,555-55-5555,2100,kleander2abc.com
+96,3,Larry,Listless,3562 NW Bruce Street,,Milwaukie,OR,96277,503-555-5178,555-55-5555,2100,kleander2abc.com
+97,3,Princess,Fred,PO Box 32 Waiyevo,,Taveuni,VI,3K3L3,679-311923,555-55-5555,2100,kleander2abc.com
+98,3,Claudia,Sutherland,PO Box 737,,Johannesburg,BA,2042,27-11-4432458,555-55-5555,2100,kleander2abc.com
+99,3,Ashok,Ramanathan,PO Box 7456,,ZK,Gr,3L23K,809-555-3660,555-55-5555,2100,kleander2abc.com
+100,3,Larry,Leming,562 NW Bruce Street,,Milwaukie,OR,96277,503-555-5178,555-55-5555,2100,kleander2abc.com
+101,4,Tora,Tora,PO Box H-4573,,Nassau,VI,K39D2,809-555-2840,555-55-5555,2100,kleander2abc.com
+102,4,Vashon,Darkhart,743 Keyhole Court,,Honolulu,HI,92856,808-555-9656,555-55-5555,2100,kleander2abc.com
+103,4,DiHir,Lils,G.O. P Box 91,Suva,DA,BA,K90SD,679-804576,555-55-5555,2100,kleander2abc.com
+104,4,To,Toraango,PO Box H-4573,,Nassau,BA,3k3k3,809-555-2840,555-55-5555,2100,kleander2abc.com
+105,3,Ann,Bennet,743 Keyhole Court,,Honolulu,HI,92856,808-555-9656,555-55-5555,2100,kleander2abc.com
+106,3,Odes,Forbellows,PO Box 466 Kihei,,Maui,HI,95736,808-555-1457,555-55-5555,2100,kleander2abc.com
+107,3,Scary,One,G.O. P Box 91,,Suva,VI,3K3K3,679-804576,555-55-5555,2100,kleander2abc.com
+108,4,Randy,Williams,PO Box 466 Kihei,,Maui,HI,95736,808-555-1457,555-55-5555,2100,kleander2abc.com
+109,3,Robin,Williams,PO Box Sn 91,,Somerset,SA,SX,809-555-1225,555-55-5555,2100,		kleander2abc.com
+110,3,John,Montgomery,921 Everglades Way,,Tampa,FL,30643,613-555-3463,555-55-5555,2100,		kleander2abc.com
+111,3,Joe,Under,PO Box Sn 91,,Somerset,VI,SXBN,809-555-1225,555-55-5555,2100,		kleander2abc.com
+112,3,Aqrama,Today,921 Everglades Way,,Tampa,FL,30643,613-555-3463,555-55-5555,2100,		kleander2abc.com
+113,4,Chris,Papadopoulos,PO Box 8535,,St. Thomas,VI,00820,809-555-7292,555-55-5555,2100,kleander2abc.com
+114,4,Themp,Shrimp,PO Box 8535,,St. Thomas,KE,00820,809-555-7292,555-55-5555,2100,kleander2abc.com
+115,4,Norwes,Tomorrow,PO Box 6834,,Paget,AZ,PSBZ,809-555-1410,555-55-5555,2100,kleander2abc.com
+116,4,Waterspout,Jackson,7865 NE Barber Ct.,,Portland,OR,99271,503-555-4233,555-55-5555,2100,kleander2abc.com
+117,3,Sue Anne O,Brien,7865 NE Barber Ct.,,Portland,OR,99271,503-555-4233,555-55-5555,2100,kleander2abc.com
+118,3,Stewart,Hall,PO Box 129,,Negril,Ja,93KK3,809-555-3499,555-55-5555,2100,kleander2abc.com
+119,3,Neptune,DownUnder,PO Box 129,,Negril,Ja,3K3L3,809-555-3499,555-55-5555,2100,kleander2abc.com

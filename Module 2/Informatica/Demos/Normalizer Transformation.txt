@@ -1,0 +1,18 @@
+1) Create the below flat file and put it in the srcfiles folder
+VSAM_SAMP.txt
+DNO,ENO,ENO1,ENO2
+1001,2000,8000,3000
+1002,2001,5000,6000
+1003,2002,4000,4000
+
+2) Create TGT_VSAM(oracle table which contains fields Eno and Dno)
+
+3)In the Mapping Designer
+ A)Import flat file VSAM_SAMP and create source Qualifier transformation
+ B)Create a normlizer transformation.Add ports in Normalizer tab of Normalizer transformation   fields(Dno,Eno).
+
+ C)From the Normlizer transformation drag Eno and Dno from the Normalizer transformation into    TGT_VSAM
+Create a session and execute workflow.
+
+
+

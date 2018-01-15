@@ -1,0 +1,52 @@
+Create the following stored procedure in oracle
+create or replace procedure calc_bonus(pempno  emp.empno%type, pbonus out number)
+as
+begin
+   select sal*0.20 into pbonus
+   from emp where empno=pempno;
+end;
+
+In Informatica
+
+A)Connected stored procedure transformation
+
+In the Mapping designer
+
+1) Drag EMP table
+Source Qualifier transformation will be created
+
+2) Create a stored procedure transformation(SP_CALC_BONUS)
+Use the stored procedure CALC_BONUS. It contains the ports PEMPNO and PBONUS
+
+3)Drag empno from the Source Qualifier transformation into PEMPNO of the Stored procedure transformation
+4)Drag EMPNO,ENAME,JOB,SAL,COMM from Source Qualifier transformation to target
+5)Drag Bonus field from stored procedure transformation to the target
+
+6) Create a workflow, session and populate the target.
+
+Note : The target table is already created with the appropriate fields
+
+B) Unconnected stored procedure transformation
+
+The same example can be converted to Unconnected stored procedure transformation
+
+1) Remove the  links from empno->PEMPNO i.e from Source Qualifier transformation to the stored procedure transformation 
+and from PBONUS to BONUS i.e from stored procedure transformation  to the target
+
+2)Create an Expression Transformation
+Drag EMPNO,ENAME,JOB,SAL,COMM from Source Qualifier transformation to Expression transformation
+
+3)Create bonus field in Expression transformation i.e add a port
+Make it as an output port and write
+:SP.SP_CALC_BONUS(EMPNO,PROC_RESULT) in expression
+Hint: Expand the stored procedure folder in the functions tab. You'll see the name of the stored procedure
+
+4) Drag EMPNO,ENAME,JOB,SAL,COMM from Expression transformation to 
+the target table
+Drag Bonus from Expression transformation to the target table
+
+V. IMP: While creating mapping in designer for stored proc transforamtions,
+do 'EDIT',
+set Connection Properties to 'SRC' and apply.
+
+

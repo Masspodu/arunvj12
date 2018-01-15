@@ -1,0 +1,25 @@
+
+1)Source Employee->SQEmployee
+
+2) Create a lookup transformation with Lookup Table TGT_employees.
+(It has the same structure as employees).
+In the lookup transformation, remove all fields except employee id make 
+it as Output Lookup Return.
+
+Add a field in the lookup transformation and name it as Employee_ID_IN 
+Make it as Input port.
+The above transformation is unconnected lookup transformation
+
+3)Create a update strategy transformation and drag relevant  fields 
+from SQ->Employees to it
+Update strategy  -- Expression
+iif(isnull(:LKP.LKP_TGT_EMPLOYEES(EMPLOYEE_ID)),DD_INSERT,DD_UPDATE)
+
+Note:LKP_TGT_EMPLOYEES is the name of unconnected lookup transformation. 
+We pass the EMPLOYEE_ID from the SQ(i.e emplyees table) and 
+check for its existence in target table
+If empid is not found in target we insert else we update.
+To Check: update employees set city='seattle' where 
+employee id =(Put appropriate employee ID)
+See whether the change is reflected in the target.
+
